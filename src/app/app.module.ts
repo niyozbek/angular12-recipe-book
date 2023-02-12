@@ -14,6 +14,7 @@ import { AuthEffects } from './auth/store/auth.effects';
 import { environment } from 'src/environments/environment';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { RecipeEffects } from './recipes/store/recipe.effects';
+import {RecipeService} from "./recipes/recipe.service";
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,7 @@ import { RecipeEffects } from './recipes/store/recipe.effects';
     StoreDevtoolsModule.instrument({logOnly: environment.production}),
     StoreRouterConnectingModule.forRoot()
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  providers: [RecipeService]
 })
 export class AppModule { }

@@ -1,6 +1,6 @@
 # Recipe Book 
 
-Available at: https://ng-course-recipe-book-41985.firebaseapp.com
+# Available at: https://ng-course-recipe-book-41985.firebaseapp.com
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 

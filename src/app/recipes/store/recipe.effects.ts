@@ -9,7 +9,7 @@ import * as fromApp from '../../store/app.reducer'
 
 @Injectable()
 export class RecipeEffects {
-  apiUrl = 'https://ng-course-recipe-book-41985-default-rtdb.firebaseio.com/recipes.json'
+  apiUrl = 'https://recipe-book-a64f4-default-rtdb.europe-west1.firebasedatabase.app/recipes.json'
 
   @Effect()
   fetchRecipes = this.actions$.pipe(
